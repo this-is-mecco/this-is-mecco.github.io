@@ -25,7 +25,7 @@
     let date2 = new Date();
     let oneDay = 1000 * 60 * 60 * 24;
     let diffInTime = Math.abs(date2 - date1);
-    let diffInDays = Math.ceil(diffInTime / oneDay);
+    let diffInDays = Math.round(diffInTime / oneDay);
     document.body.innerHTML = "<div class='container'> <div class='center'> <h1>Мы с тобой вместе уже " + diffInDays + " дней!</h1> </div> </div>"
   </script>
 </body>
